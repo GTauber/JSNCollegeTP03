@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.jsn.tauber.TauberTp01ApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-03-20T22:03:55" hostname="GTauberPC" time="0.179">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.jsn.tauber.TauberTp01ApplicationTests" time="0.179"/>
+  <system-out><![CDATA[19:03:54.216 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [TauberTp01ApplicationTests]: using SpringBootContextLoader
+19:03:54.220 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.jsn.tauber.TauberTp01ApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+19:03:54.220 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.jsn.tauber.TauberTp01ApplicationTests]: TauberTp01ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+19:03:54.232 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using ContextCustomizers for test class [TauberTp01ApplicationTests]: [DisableObservabilityContextCustomizer, PropertyMappingContextCustomizer, Customizer, ExcludeFilterContextCustomizer, DuplicateJsonObjectContextCustomizer, MockitoContextCustomizer, TestRestTemplateContextCustomizer, WebTestClientContextCustomizer]
+19:03:54.277 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/home/gtauber/Development/College/2023/T1/JSN/TP03/Love-Calculator/build/classes/java/main/com/jsn/tauber/TauberJSNApplication.class]
+19:03:54.278 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.jsn.tauber.TauberJSNApplication for test class com.jsn.tauber.TauberTp01ApplicationTests
+19:03:54.321 [Test worker] DEBUG org.springframework.test.context.util.TestContextSpringFactoriesUtils - Skipping candidate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener] due to a missing dependency. Specify custom TestExecutionListener classes or make the default TestExecutionListener classes and their required dependencies available. Offending class: [jakarta/servlet/ServletContext]
+19:03:54.327 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners for test class [TauberTp01ApplicationTests]: [DirtiesContextBeforeModesTestExecutionListener, ApplicationEventsTestExecutionListener, MockitoTestExecutionListener, DependencyInjectionTestExecutionListener, DirtiesContextTestExecutionListener, TransactionalTestExecutionListener, SqlScriptsTestExecutionListener, EventPublishingTestExecutionListener, RestDocsTestExecutionListener, MockRestServiceServerResetTestExecutionListener, MockMvcPrintOnlyOnFailureTestExecutionListener, WebDriverTestExecutionListener, MockWebServiceServerTestExecutionListener, ResetMocksTestExecutionListener]
+19:03:54.328 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: class [TauberTp01ApplicationTests], class annotated with @DirtiesContext [false] with mode [null]
+19:03:54.335 [Test worker] DEBUG org.springframework.test.context.support.DependencyInjectionTestExecutionListener - Performing dependency injection for test class com.jsn.tauber.TauberTp01ApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.0.2)
+
+2023-03-20T19:03:54.487-03:00  INFO 18311 --- [    Test worker] c.jsn.tauber.TauberTp01ApplicationTests  : Starting TauberTp01ApplicationTests using Java 17.0.6 with PID 18311 (started by gtauber in /home/gtauber/Development/College/2023/T1/JSN/TP03/Love-Calculator)
+2023-03-20T19:03:54.488-03:00  INFO 18311 --- [    Test worker] c.jsn.tauber.TauberTp01ApplicationTests  : No active profile set, falling back to 1 default profile: "default"
+2023-03-20T19:03:54.816-03:00  INFO 18311 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2023-03-20T19:03:54.827-03:00  INFO 18311 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 0 R2DBC repository interfaces.
+2023-03-20T19:03:55.393-03:00  INFO 18311 --- [    Test worker] c.jsn.tauber.TauberTp01ApplicationTests  : Started TauberTp01ApplicationTests in 1.046 seconds (process running for 1.589)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
